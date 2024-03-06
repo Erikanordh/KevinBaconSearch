@@ -1,0 +1,183 @@
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.*;
+
+public class PathToBacon {
+    private final Map<String, Set<String>> baconGraph;
+    private final Map <String, List<String>> cache;
+    private final static String KEVINBACON = "<a>Bacon, Kevin (I)";
+
+    public static void main(String[] args) {
+        PathToBacon bg = new PathToBacon("moviedata.txt");
+        bg.startPathfinder();
+    }
+    public PathToBacon(String filename){
+        baconGraph = new HashMap<>();
+        cache = new HashMap<>();
+        loadFile(filename);
+    }
+    private void startPathfinder(){
+        for(int i = 0; i < 10; i++) {
+            distributeInput(askForUserInput());
+        }
+    }
+    private void loadFile(String filename) {
+        try {
+            FileReader reader = new FileReader(filename);
+            BufferedReader in = new BufferedReader(reader);
+
+            String line = in.readLine();
+            String actorName = "";
+            while (line != null) {
+                if (line.startsWith("<a")) {
+                    actorName = line;
+                    Set<String> actorsMovies = new HashSet<>();
+                    baconGraph.put(actorName, actorsMovies);
+                }
+                line = in.readLine();
+                while (line != null && line.startsWith("<t")) {
+                    String movieTitle = line;
+                    if (!baconGraph.containsKey(movieTitle)) {
+                        Set<String> actorsMap = new HashSet<>();
+                        actorsMap.add(actorName);
+                        baconGraph.put(movieTitle, actorsMap);
+                    } else {
+                        Set<String> moviesActors = baconGraph.get(movieTitle);
+                        moviesActors.add(actorName);
+                    }
+                    Set<String> currentActor = baconGraph.get(actorName);
+                    currentActor.add(movieTitle);
+                    line = in.readLine();
+                }
+
+            }
+        } catch (IOException fileNotFoundException) {
+            fileNotFoundException.printStackTrace();
+        }
+    }
+
+    /**
+     * Programmet ber användaren att mata in skådespelare man vill söka efter
+     * Om det inmatade värdet inte är en skådespelare i grafen, eller är skrivet i fel format så hen inte går att hitta
+     * så skrivs ett meddelande ut, användaren upplyses om önskad formatering och får möjlighet att mata in ett nytt värde.
+     * @return användarens inmatade värde returneras som en sträng konkatenerad med "<a>"
+     */
+    private String askForUserInput(){
+        Scanner input = new Scanner(System.in);
+        System.out.println("?");
+        String userInput = "<a>" + input.nextLine();
+        while (!baconGraph.containsKey(userInput)){
+            System.out.println("Wrong input, there is no actor with that name. Please enter: \"last name, first name\"\n?");
+            userInput = "<a>" + input.nextLine();
+        }
+        return userInput;
+    }
+
+    /**
+     * Metoden kollar upp användarens skådespelare och bestämmer därefter hur den ska hanteras
+     * @param name - namnet på skådespelaren användaren önskar söka efter formaterat "<a>Efternamn, Förnamn"
+     *
+     *      Om användaren vill söka efter Kevin Bacon skrivs vägen från honom ut.
+     *
+     *      Om namnet finns bland redan sökta skådespelare i vår cache plockar
+     *      vi fram den sparade vägen till den skådespelaren och skickar vidare till printPath()
+     *
+     *      Om det inte finns en tidigare sökt väg till skådespelaren så skickar vi vidare @param till searchWayToBacon() för att hitta dess väg.
+     */
+    private void distributeInput(String name) {
+            if (name.equals(KEVINBACON)) {
+                System.out.println("Bacon, Kevin (I) is 0 steps away from Kevin B. The path is <a>Bacon, Kevin (I)</a>");
+            } else if (cache.containsKey(name)) {
+                List<String> path = cache.get(name);
+                printPath(path);
+            } else {
+                searchWayToBacon(name);
+            }
+    }
+
+    /**
+     * Söker efter Kevin Bacon i samlingen med utgångspunkt från användarens input som skickas med som parameter
+     * @param actor - namnet på skådespelaren som användaren vill söka efter, formaterat "<a> Efternamn, Förnamn"
+     *
+     *              Om man inte hittar en väg till Bacon så skrivs det ut ett meddelande till användaren
+     *
+     *              När man hittat Bacon så anropas PrintPath som har ett anrop till CollectPath som parameter dit man skickar
+     *              metodens Map och Actor.
+     *
+     */
+    private void searchWayToBacon(String actor) {
+        Queue<String> que = new LinkedList<>();
+        Map<String,String> checked = new HashMap<>();
+        String current;
+        boolean foundBacon = false;
+        que.add(actor);
+        checked.put(actor,null);
+        while (!que.isEmpty()) {
+            current = que.poll();
+            if (current.equals(KEVINBACON)) {
+                foundBacon = true;
+                break;
+            }
+            else {
+                for (String objectOfCurrent : baconGraph.get(current)) {
+                    if (!checked.containsKey(objectOfCurrent)) {
+                        que.add(objectOfCurrent);
+                        checked.put(objectOfCurrent, current);
+                    }
+                }
+            }
+        }
+        if (!foundBacon) {
+            System.err.println("There is no way to Kevin Bacon from " + actor.substring(3));
+        } else {
+            printPath(collectPath(checked,actor));
+        }
+    }
+
+    /**
+     * Går igenom kollade noder och plockar fram den korrekta vägen från bacon till "actor"
+     * Den lägger även till vägen till klassen cache-samling.
+     * @param watched tar emot en map med kollade noder från searchWayToBacon
+     * @param actor tar emot användarens sökta skådespelare
+     * @return en lista med den korrekta vägen från Kevin Bacon till "actor"
+     */
+    private List<String> collectPath(Map<String,String>watched,String actor){
+        ArrayList<String> path = new ArrayList<>();
+        path.add(KEVINBACON);
+        String checkFor = KEVINBACON;
+        while(!checkFor.equals(actor)) {
+            for (String s : watched.keySet()) {
+                if (s.equals(checkFor)) {
+                    if(watched.get(s) != null) {
+                        checkFor = watched.get(s);
+                        path.add(checkFor);
+                    }
+                }
+            }
+        }
+        cache.put(actor,path);
+        return path;
+    }
+
+    /**
+     * Räknar ut baconindex baserat på vägens längd, går igenom vägen och bygger upp en sträng utifrån denna och skriver ut.
+     * @param path vägen från Kevin Bacon till användarens skådespelare
+     */
+    private void printPath(List<String>path){
+        int baconIndex = path.size()/2;
+        StringBuilder baconPath = new StringBuilder();
+        String requestedActor = path.get(path.size()-1).substring(3);
+        baconPath.append(requestedActor).append(" is ").append(baconIndex).append(" step");
+        if (baconIndex != 1) {
+            baconPath.append("s");
+        }
+        baconPath.append(" away from Kevin B. The path is ");
+        for (int i = 0; i < path.size(); i++) {
+            String s = path.get(i);
+            baconPath.append(s);
+        }
+        baconPath.append("</a>");
+        System.out.println(baconPath);
+    }
+}
