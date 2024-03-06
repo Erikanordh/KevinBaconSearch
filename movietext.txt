@@ -1,0 +1,572 @@
+/*
+Exempelutdrag ur textdatabas. Ursprunglig storlek är 10 927 844 rader
+
+*/
+
+<a>#1, Buffy
+<t>Closet Monster (2015)
+<a>$, Homo
+<t>Nykytaiteen museo (1986)
+<t>Suuri illusioni (1985)
+<a>$hutter
+<t>Battle of the Sexes (2017)
+<t>NVTION: The Star Nation Rapumentary (2017)
+<t>Secret in Their Eyes (2015)
+<t>Steve Jobs (2015)
+<t>Straight Outta Compton (2015)
+<a>$lim, Bee Moe
+<t>Fatherhood 101 (2013)
+<t>For Thy Love 2 (2009)
+<a>$torm, Cuntry
+<t>From the Woods: The Discovery of LYB (????)
+<a>' Chris Focus' Adolphus, Chris
+<t>Virtues of Habit (????)
+<a>' Danilo' Jurado Jr., Jori
+<t>Lapis, Ballpen at Diploma, a True to Life Journey (2014)
+<a>''El Lobo'' Rubio, Humberto
+<t>24° 51' Latitud Norte (2015)
+<t>Episodio de Una Espera (????)
+<a>''Hooper''Kelly, Simon
+<t>Solitary (2015/I)
+<a>'Angel' Garrett, Christopher
+<t>A Call in the Dark (2017)
+<t>Zombie Reign: Revelation (2016)
+<a>'Ariffin, Syaiful
+<t>Desire (2014/III)
+<a>'Aruhane
+<t>Shaping Bamboo (1979)
+<a>'Atu'ake, Taipaleti
+<t>When the Man Went South (2014)
+<a>'Avacado' Wolfe, David
+<t>The Gift (2010/I)
+<a>'babeepower' Viera, Michael
+<t>Little Angel (Angelita)
+<t>Mixing Nia (1998)
+<t>Rock Steady (2002)
+<t>W8 (Weight)
+<a>'Bear'Boyd, Steven
+<t>The Replacements (2000)
+<a>'bliss' Vilbon, Kirlew
+<t>All Out Dysfunktion! (2016)
+<t>Gook (2017)
+<a>'Bootsy' Thomas, George
+<t>My Song for You (2010)
+<a>'Boretta' Torres, Pete
+<t>Hustle Beach (2017)
+<a>'Builder Bill' Ammons, Bill
+<t>Welcome to Slab City (2012)
+<a>'Byron' Sese, Joseph
+<t>Mariano Mison... NBI (1997)
+<a>'Calica' Ferrer, Carlos
+<t>La huella del doctor Ernesto Guevara (2013)
+<a>'Cartucho' Pena, Ramon
+<t>Natas es Satan (1977)
+<a>'Chago' Felix, Santiago
+<t>Shadow Girl (2016)
+<a>'Cherry, Sahel
+<t>The Emancipation of Anemone (????)
+<a>'Chincheta', Eloy
+<t>¡Ja me maaten...! (2000)
+<a>'Chippa' Wilson, Chris
+<t>Out of Bounds (2012)
+<a>'Colibri'Viera, Gil
+<t>Todo x Sara (2014)
+<a>'da Handyman' Kretschmann, Jerry
+<t>Welcome to Slab City (2012)
+<a>'Dead End' Kids, The
+<t>Angels with Dirty Faces (1938)
+<t>Crime School (1938)
+<t>Hell's Kitchen (1939)
+<t>Land of Liberty (1939)
+<t>They Made Me a Criminal (1939)
+<a>'Dibujo' Torres, Marcelino
+<t>Barrio Gangsters (2009)
+<a>'Dicky' Clemson, Donnie
+<t>Cornmeal, Gunpowder, Ham Hocks and Guitar Strings (2015)
+<a>'Doc Knotz' Laschinger, Roland
+<t>B Flat - or how to miss a blue note (2013)
+<a>'Draico' Johnson, Dondraico
+<t>The LXD: The Secrets of the Ra (2011)
+<a>'Eddie' Eldemire, Edward
+<t>German Town: The Lost Story of Seaford Town Jamaica (2015)
+<a>'El Burro' Van Rankin, Jorge
+<t>Serafín: La película (2001)
+<a>'El de Chipiona', Antonio
+<t>La guitarra muda (1953)
+<a>'El Francés', José
+<t>Alma gitana (1996)
+<t>O que dis que din (2003)
+<a>'El Gato', Félix
+<t>Pelotazo nacional (1993)
+<a>'El Guisa'
+<t>Los tarantos (1963)
+<a>'El Jalisco', Marcial
+<t>Entre las patas de los caballos (2000)
+<a>'El Morito', José
+<t>Torrente 2: Misión en Marbella (2001)
+<a>'El Niño de la Manola', Francisco
+<t>Los Almendros - Plaza nueva - (2000)
+<a>'El Pescaíto', Antonio
+<t>Los Almendros - Plaza nueva - (2000)
+<a>'El Plojo', Luis
+<t>De la calle (2001)
+<a>'el Portugues', Janny
+<t>La contrabandista (1982)
+<a>'El Rilete', Antonio
+<t>Los Almendros - Plaza nueva - (2000)
+<a>'El Toro', Baltazar
+<t>Operación narcóticos (1991)
+<a>'El Viti'
+<t>Los tarantos (1963)
+<a>'Finchie''Coveney, Finbar
+<t>The Brotherhood (2014)
+<a>'Fingerz' Esbai, Ali
+<t>A Heated Interview (2013)
+<a>'Flintstone', Tommy
+<t>Welcome to Slab City (2012)
+<a>'Formiga', Luis Roberto
+<t>OP Pro 88 - Barra, Rio (1988)
+<a>'Fox, Zhavier' (II)
+<t>They Want Dick Dickster (2015)
+<a>'Francis, Mengesha Mystro
+<t>Michael Jacksonology: Piano Experience by Mystro (Black Liberace)
+<a>'Gasparyan', Zohrab Bek-Gasparents
+<t>Qavor (2016)
+<a>'Geebmachine' Hunter, Joel
+<t>The Railways of Crotoonia: Tillie to the Rescue (2017)
+<a>'Ghetto Bird' Bahena, Gilberto
+<t>Mahogany Sunrise (2014)
+<a>'Goochi'
+<t>Everybody's Business (1993)
+<a>'Griyo' Rodriguez, Joel
+<t>Alpha H-21 (2016)
+<a>'Hairy Cowboy', Fred
+<t>102 PS (2009)
+<a>'Hass' Nunes, Harvey
+<t>Edge of the Pier (2016)
+<a>'Hos' Bearzi, Marcelo
+<t>Wakolda (2013)
+<a>'Igor' Morrison, Van
+<t>Killing Device (1993)
+<a>'Illy' Liban, Ellias
+<t>Troop 491: the Adventures of the Muddy Lions (2013)
+<a>'Insane Wayne' Smith, Wayne
+<t>Welcome to Slab City (2012)
+<a>'Irisipau
+<t>Shaping Bamboo (1979)
+<a>'Irisitapa'a, Supamae
+<t>Shaping Bamboo (1979)
+<a>'Jarg' Ernst, Jonathan
+<t>The Boogeys (????)
+<a>'Jazz' Jasmer, Andrew
+<t>Devout (2016/IV)
+<a>'Jumbles' Cook, David
+<t>Heron's Story (2008)
+<a>'K', Murray the
+<t>Been Down So Long It Looks Like Up to Me (1971)
+<t>I Wanna Hold Your Hand (1978)
+<t>That's the Way of the World (1975)
+<t>The Day the Music Died (1977)
+<a>'Kick Boxer', Néstor
+<t>Violencia urbana (1996)
+<a>'Kid Niagara' Kallet, Harry
+<t>Drug Demon Romance (2012)
+<a>'Koolout' Starks, Johnny
+<t>Don't Bite the Apple (2011)
+<t>Nothing Like the Holidays (2008)
+<t>Ransum Games (2014)
+<t>Subtle Seduction (2008)
+<t>The Godfather of Green Bay (2005)
+<t>Using (2015)
+<a>'Koshin' Kain, Christopher
+<t>In Search of the Great Song (2016)
+<a>'Krolle' Pedersen, Christian
+<t>Krigen (2015)
+<a>'La Chispa', Tony
+<t>Caceria de judiciales (1997)
+<t>El secuestro de un periodista (1992)
+<t>Violencia en la sierra (1995)
+<a>'Latin' Clark, James
+<t>Manito: Brother's Sacrifice (2013)
+<a>'Lito' Tejada, Yradier
+<t>Rebecca's Window (2006)
+<a>'Little Kato', Chris
+<t>Jackass 3D (2010)
+<a>'Mad Dog' Adams, Mike
+<t>The Long Home (2017)
+<t>Zeroville (2018)
+<a>'Maka West', Jerry
+<t>Nom Tèw (2009)
+<a>'Malid, Paddy
+<t>In the Land of the Head Hunters (1914)
+<a>'Mascot' Benjamin, Cameron
+<t>Meridian (2016/I)
+<t>Silencer: Acquisition (2014)
+<a>'McGillicuddy' Johnson, Hildy
+<t>Jenny's Wedding (2015)
+<a>'Mezio Agostini' di Fano, Coro del Teatro della Fortuna
+<t>Trento Symphonia (2014)
+<a>'Monkey' Stevens, Neal
+<t>Back Issue (2014)
+<t>Grey Britain (2009)
+<t>Half Hearted (2010)
+<t>Hot Property (2016)
+<t>Sign Language (2010/II)
+<t>The Leap (2015)
+<a>'Morita'
+<t>Los tarantos (1963)
+<a>'Mr. Talkbox' Chambers, Byron
+<t>Nathan East: For the Record (2014)
+<a>'Muhammad Ali of R&B', Yavin
+<t>The Enemies You Keep (2012)
+<a>'Muso, Joseph
+<t>Song of Africa (1952)
+<a>'Nico' Arcuri, Dominic
+<t>Our Final Slumber (2016)
+<t>Stuck in the Middle (2016)
+<a>'O'Connell, Colette
+<t>Hello Au Revoir (2018)
+<a>'Oahura
+<t>Shaping Bamboo (1979)
+<a>'Original Whitefolks' Woodson, Darryel
+<t>Whitefolks (2017)
+<a>'Planetz' Jarin, Michael
+<t>Untimely (????)
+<a>'Potbelly' Rodger, Jason
+<t>Gospel Truth (2011)
+<a>'Pucherete'
+<t>Los tarantos (1963)
+<a>'Raff'
+<t>Reflections of Evil (2002)
+<a>'Rami' Wells, Hinton
+<t>Justice-For-Hire (2005)
+<a>'Reaktion' Hillard, Seth
+<t>All Out Dysfunktion! (2016)
+<a>'Red Dymond' Reeves, Bennet
+<t>Kop Dat (2016)
+<a>'Red' Cunningham, William
+<t>The Left Side of My Brain (1992)
+<a>'Roi Rapx' Howard, Anthony
+<t>Circles (2017/I)
+<t>Prey Before You Eat 2 (2016)
+<a>'Romero', Pollino
+<t>La estatua (1961)
+<a>'Russ' Kennedy, James
+<t>Lewis & Clark: Great Journey West (2002)
+<a>'Scoot' Herring, Scott
+<t>In the Dark of Night (2017)
+<a>'Shotgun' Smith, Andrew
+<t>Candie's Harem (2015)
+<t>Cellar Secret (2016)
+<a>'Sledgehammer' Jones, Jerry
+<t>Welcome to Slab City (2012)
+<a>'Slick' Nesevitch, Chris
+<t>Step Fast (1994)
+<a>'Slim' Holmes, Charles
+<t>A Violence Disrupted Aka Murder Alley (2017)
+<a>'Son Son' Dupain, Stevenson
+<t>Noise Runs (2014)
+<a>'Soul' Beard, Cory
+<t>The Crime City Diaries: Entry 1 - Crooked (2012)
+<a>'Spax' Szulc-Vollmann, Rafael
+<t>Battle of the Year (2013)
+<a>'Stake' Morton III, Michael
+<t>Josephine Doe (2016)
+<a>'Sticks' Hilliard, Johnny
+<t>Welcome to Slab City (2012)
+<a>'Stretch' Cox Troupe
+<t>Fire Down Below (1957)
+<a>'t Hoen, Frans
+<t>De zaak M.P. (1960)
+<t>Dorp aan de rivier (1958)
+<a>'t Hooft, Dick
+<t>Moord in extase (1984)
+<a>'t Hout, Rogier in
+<t>48 minuten (2013)
+<t>By Accident (2014)
+<t>Riphagen (2016)
+<t>Taal is zeg maar echt mijn ding (2018)
+<a>'t Joen, Léon
+<t>Jack l'éventreur (1971)
+<a>'T.C.' Craney, Thurman
+<t>KCKPL's Stories on the Bus: Matt de la Peña reads Last Stop on Market Street (2017)
+<a>'The Carpenter' Mansoori, Harry
+<t>Del Playa (2015)
+<a>'The Horse', Cowboy
+<t>Contested (2012)
+<a>'The Welder' Phinney, Frank
+<t>Welcome to Slab City (2012)
+<a>'Thundakat' Abrams, Andre-Julius
+<t>I Got Soul (2013)
+<a>'Tp Corleone' Perkins, Derek
+<t>The Worst Nightmare (2017)
+<a>'Trix' Thompson, Albert
+<t>Battle of the Year (2013)
+<a>'Tunsichino' Cooper, Gerald
+<t>Motown Mafia: The Story of Eddie Jackson and Courtney Brown (2011)
+<a>'Ulaleo, Ka'olelo
+<t>Pele's Appeal (1990)
+<a>'Vietnam'Carswell, Leon
+<t>Transformers: Revenge of the Fallen (2009)
+<a>'Walking Stick' Hambrick, John
+<t>Severed Ties (2017)
+<a>'Wheels' Brooks, James
+<t>Fingerguns: The Movie (2015)
+<a>'Zafar, Kamran
+<t>The Journey Within (2015)
+<a>'Ô', Oswald
+<t>Skate - O Esporte Emoção (1987)
+<a>-, Afsaneh
+<t>For the Birds (2014)
+<t>Inescapable Dream (2012)
+<a>-, Akira
+<t>Kohtaro in Space Wonderland (2014)
+<a>-, Amy
+<t>24 instantes (2004)
+<a>-, Aruka
+<t>Don't push that button (2014)
+<a>-, Aya
+<t>The Words (2013)
+<a>-, Dee
+<t>Brian's Dots (2014)
+<a>-, Doigaki
+<t>The Shore (2013)
+<a>-, Donte
+<t>Bound Boys (2015)
+<a>-, Francis
+<t>Kayan Beauties (2012)
+<a>-, Godfrey
+<t>Adventures in Comedy (2015)
+<a>-, Hayato
+<t>Hanabi Shisou (2013)
+<a>-, Hiei
+<t>Kohtaro in Space Wonderland (2014)
+<a>-, Hiroki
+<t>Hana Hitotsu (2016)
+<t>Hikari to chi (2017)
+<t>Kohtaro in Space Wonderland (2014)
+<a>-, Jamil
+<t>Bound Boys (2015)
+<a>-, Karu
+<t>Kohtaro in Space Wonderland (2014)
+<a>-, Kiryu
+<t>Flowers from a Book (2017)
+<a>-, Manolo
+<t>Counting My Days (2010)
+<a>-, Mariusz
+<t>Równonoc (2011)
+<a>-, McKeever
+<t>Uncovering Eden (2014)
+<a>-, Meherunnesa
+<t>While the Train Runs (2013)
+<a>-, Minako
+<t>The Words (2013)
+<a>-, Moena
+<t>Melody of Funhouse (2013)
+<a>-, Mowly
+<t>Mowly (2011)
+<a>-, Myeong-Ju
+<t>Don't push that button (2014)
+<a>-, Nuri
+<t>The Two Million (2016)
+<a>-, Omar
+<t>The Two Million (2016)
+<a>-, Paulex
+<t>Big Weekend (2011)
+<a>-, Pinky
+<t>Shourya (2013)
+<a>-, Salomón
+<t>No Questions Asked (2017)
+<a>-, Sato
+<t>Mikkusu (2017)
+<a>-, Taishi
+<t>Life of Festival (2012)
+<a>-, Toussaint
+<t>Bella Luna (2013)
+<a>-, Xiao Meng
+<t>Love. Adventure (2013)
+<a>-, Yuuki
+<t>The Words (2013)
+<a>-, Zulfikar
+<t>A Full Stop That SearchesfFor It's End (2015)
+<a>--, Anónimo
+<t>X Érase una vez (2015)
+<a>--, Ernesto
+<t>Plato Para Dos (2015)
+<a>--, Gustav
+<t>Gabor (2013)
+<a>--, Xavier
+<t>Plato Para Dos (2015)
+<a>-Alverio, Esteban Rodriguez
+<t>Three from the Block (2017)
+<a>-Ek, Ivan
+<t>Corpuscle (2012)
+<a>-Gohel, Ketan Daraji
+<t>The Colour of Darkness (2016/I)
+<a>-Mensah, Isaiah Entsua
+<t>London Betty (2009)
+<t>Rudyard Kipling's Mark of the Beast (2012)
+<a>-Schwarz, Angel Collado
+<t>Bancarrota (2017)
+<t>The Last Colony (2015)
+<a>., Adib Ahmad Hilmy
+<t>The Thief and the Wise Man (2010)
+<a>., Arielle
+<t>Don't Ask Do Tell (2014)
+<a>., Ashwaq
+<t>Don't Leave Me (2013)
+<a>., Bruno
+<t>Belva Nera (2013)
+<a>., Budgie
+<t>The View From The Other: J-Dilla -A European Remembrance (2013)
+<a>., Carlos
+<t>Ratari Narketos (2006)
+<a>., Ceschino
+<t>Magnetic Personality (2013)
+<a>., Chabuco
+<t>Flight of the Guitar: Dreaming of Paco De Lucia (2016)
+<a>., Chanelle
+<t>Don't Ask Do Tell (2014)
+<a>., Chief
+<t>The View From The Other: J-Dilla -A European Remembrance (2013)
+<a>., Chirag (I)
+<t>Think Positive (2016)
+<a>., Chirag (II)
+<t>Conscious Awakening A Silent War (2015)
+<t>MMM Manipulation (2016)
+<t>Ouch Casting Couch (2016)
+<a>., Cougar (I)
+<t>Peak of Terror (2013)
+<a>., Cougar (II)
+<t>Fame Machine (2015)
+<a>., Diego
+<t>Ratari Narketos (2006)
+<a>., G-Town
+<t>The Furious Force of Rhymes (2010)
+<a>., Gong-Myoung
+<t>Yi-geot-yi U-li-eui Ggeuit-yi-da (????)
+<a>., Groovin
+<t>Candelabra (2014)
+<a>., Hamid
+<t>Bad Ideas (2012)
+<a>., Hazeem
+<t>The View From The Other: J-Dilla -A European Remembrance (2013)
+<a>., Hazman Ruzman
+<t>The Thief and the Wise Man (2010)
+<a>., Indira (II)
+<t>Nunnunarvu (2016)
+<a>., Ino
+<t>The Blind Photographer (2011)
+<a>., Isis
+<t>Hitokui meido to satsujin nâsu (2011)
+<a>., Jahnaya
+<t>Don't Ask Do Tell (2014)
+<a>., Juice Market
+<t>The View From The Other: J-Dilla -A European Remembrance (2013)
+<a>., Kartikeya
+<t>Fighter Kites (2016)
+<a>., Khalil
+<t>The View From The Other: J-Dilla -A European Remembrance (2013)
+<a>., Kidkanevil
+<t>The View From The Other: J-Dilla -A European Remembrance (2013)
+<a>., Lakshman
+<t>Katputliwala (2014)
+<a>., Lefto
+<t>The View From The Other: J-Dilla -A European Remembrance (2013)
+<a>., Mariza
+<t>Flight of the Guitar: Dreaming of Paco De Lucia (2016)
+<a>., Maziar (I)
+<t>Safari Jadeyi (2013)
+<a>., Maziar (II)
+<t>The Giant of Garmeh (2017)
+<a>., Mohamad Sawifi
+<t>The Thief and the Wise Man (2010)
+<a>., Morgan
+<t>With or Without You (2010)
+<a>., Murali
+<t>Rosy Theatre, Kanapur (2015)
+<a>., Nhojj
+<t>Out on the Tracks (2014)
+<a>., Niyati
+<t>Anamika (2014)
+<a>., Offkey
+<t>Meet Me on the Hill (2011)
+<a>., Onra
+<t>The View From The Other: J-Dilla -A European Remembrance (2013)
+<a>., Paddy
+<t>Four Wise Monkeys (2016)
+<a>., Pito
+<t>The Last Supper (2014/VI)
+<a>., Raju
+<t>WhyLean (2014)
+<a>., Revanshu
+<t>Everything Disappears (2014)
+<a>., Roshie
+<t>The First Horror Movie (2015)
+<a>., Saneyes
+<t>The View From The Other: J-Dilla -A European Remembrance (2013)
+<a>., Saz
+<t>Be a Nelson (2015)
+<a>., Scrooge
+<t>Good Time (2017)
+<a>., Sebb
+<t>The View From The Other: J-Dilla -A European Remembrance (2013)
+<a>., Sundar
+<t>Rosy Theatre, Kanapur (2015)
+<a>., Tedarryl
+<t>When, Where, How? (2014)
+<a>., Texas
+<t>The Genderfellator (2011)
+<a>., Timo
+<t>The Quincy Rose Show (2011)
+<a>., Titoss
+<t>Win Marathon (2017)
+<a>., Tomatito
+<t>Flight of the Guitar: Dreaming of Paco De Lucia (2016)
+<a>., Tyler
+<t>Projekt Tyler (2014)
+<a>., Varsha
+<t>Rupali (2014)
+<a>., Wojtek
+<t>The Wheel of Life (2012)
+<a>., Yoo-Young
+<t>Yi-geot-yi U-li-eui Ggeuit-yi-da (????)
+<a>., Zhanna
+<t>Ellas (2012)
+<a>., Zia
+<t>Kwihyang (2009)
+<a>.Knight, G.
+<t>A Dance for G. Knight (2016)
+<t>Knight Rising (2017)
+<a>.Ponnappan, Jai Krishna
+<t>Erased (2015/I)
+<a>.Ravi, Professor
+<t>Naya Zamana Nai Kranti (1990)
+<a>0010x0010
+<t>Sane (2014)
+<a>0110, Mr.
+<t>Power Surge (2004)
+<a>1 Turtle
+<t>He See Sea (2014)
+<a>1, Todd
+<t>Who's the Man? (1993)
+<a>1. Wiener Pawlatschen Ag
+<t>Herzausreisser - Neues vom Wienerlied (2008)
+<a>10, Mac
+<t>Love Hollywood Style (2006)
+<a>1000Tinho
+<t>Coruja (2001)
+<a>101 Ranch Cowboys
+<t>Life on the 101 Ranch, Bliss Oklahoma (1914)
+<a>101, Kab
+<t>Rash (2005)
+<a>10Gzy
+<t>King of the Ville (2011)
+<a>112
+<t>Can't Stop, Won't Stop: A Bad Boy Story (2017)
+<a>11:11, Angel
+<t>Big Apple (2002)
+<t>The Restaurant (2011/I)
+<t>The Umbrella (2010)
+<t>Young Americans (2004)
+<t>Zoolander (2001)
